@@ -29,6 +29,7 @@ services:
       DBPORT: ${DBPORT}
     ports:
       - "5454:5454"
+    command: postgres -p 5454
 volumes:
   psql-data:
 
