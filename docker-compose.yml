@@ -28,7 +28,7 @@ services:
       DBHOST: ${DBHOST}
       DBPORT: ${DBPORT}
     ports:
-      - "5432:5432"
+      - "5454:5454"
 volumes:
   psql-data:
 
